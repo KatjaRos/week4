@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: #eceff1;
+}
+.show-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.show-data {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    background-color: #cfd8dc ;
+    box-shadow: 5px 3px 9px #050c0c;
+}
+.show-data img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 6px;
+    display: block;
+    display: flex;
+}
+.show-data h1 {
+    text-align: center;
+    
+}
+.show-info {
+    width: 100%;
+    padding: 10px;
+}
