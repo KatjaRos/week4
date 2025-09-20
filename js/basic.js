@@ -5,7 +5,8 @@ const container = document.querySelector(".show-container")
 submitBtn.addEventListener("click", async () => {
     const query = input.value.trim()
     container.innerHTML="";
-    const response = await fetch(`https://api.tvmaze.com/search/shows?q=better%20call%20saul`);
+    const response = await fetch(`https://api.tvmaze.com/search/shows?q=${encodeURIComponent(query)}`);
+
     const data = await response.json();
     
     data.forEach(item => {
